@@ -16,3 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+/*Route::view('/product/terrasnaja-doska-cm-decking', 'terrasnaja-doska-cm-decking')
+    ->name('tdpk');*/
+
+Route::group(['prefix' => 'product'], function() {
+    Route::view('terrasnaja-doska-cm-decking', 'terrasnaja-doska-cm-decking')
+        ->name('tdpk');
+
+    Route::view('fasadnaya-oblicovka-iz-dpk', 'fasadnaya-oblicovka-iz-dpk')
+        ->name('fasaddpk');
+
+    Route::view('perila-i-ograzhdeniya-iz-dpk', 'perila-i-ograzhdeniya-iz-dpk')
+        ->name('periladpk');
+});
