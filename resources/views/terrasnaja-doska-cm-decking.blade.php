@@ -6,23 +6,23 @@
     <x-h1>Террасная доска из ДПК</x-h1>
     <x-h2>CM Decking</x-h2>
 
-    <div class="row row-cols-3">
+    <div class="row row-cols-3 p-5">
 
-        <div class="col">
+        <div class="col p-5">
             <a href="#">
                 <img class="img-fluid" src="{{ asset('images/IMG_6172_1.png') }}" alt="">
             </a>
             <h3 class="display-6 text-center text-decoration-none">CM Decking Vintage Solid</h3>
         </div>
 
-        <div class="col">
+        <div class="col p-5">
             <a href="#">
                 <img class="img-fluid" src="{{ asset('images/Zebrano_Brown_.jpg') }}" alt="">
             </a>
             <h3 class="display-6 text-center text-decoration-none">CM Decking Zebrano</h3>
         </div>
 
-        <div class="col">
+        <div class="col p-5">
             <a href="#">
                 <img class="img-fluid" src="{{ asset('images/cm-deking-natur-dub-double.jpg') }}" alt="">
             </a>
